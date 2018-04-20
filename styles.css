@@ -137,3 +137,22 @@ button:focus {
   height: 100vh;
   width: 69.9%;
 }
+
+#main-panel > * {
+  margin-left: 2rem;
+}
+
+#main-headline {
+  margin-top: 1.6rem;
+  font-size: 19px;
+  margin-bottom: 0.3rem;
+}
+
+#main-subheader {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 15px;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 0.8rem;
+  max-width: 47rem;
+}

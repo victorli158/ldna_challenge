@@ -140,6 +140,7 @@ button:focus {
 
 #main-panel > * {
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #main-headline {
@@ -155,4 +156,30 @@ button:focus {
   border-bottom: 1px solid #D3D3D3;
   padding-bottom: 0.8rem;
   max-width: 47rem;
+}
+
+#main-intro, #main-conclusion {
+  font-size: 13px;
+}
+
+p#main-intro:first-letter {
+  font-size: 40px;
+  float: left;
+  margin-right: 0.5rem;
+  line-height: 30px;
+}
+
+#main-image {
+  width: 29.5rem;
+  height: 10rem;
+  background-color: #A8A8A8;
+  margin: 0 auto;
+}
+
+#main-caption {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 0.2rem;
 }

@@ -173,6 +173,26 @@
       </div>
 
     </div>
+    <script>
+      var chatbox = document.getElementById('chatbox');
 
+      chatbox.addEventListener('focus', function() {
+        this.placeholder = '';
+        this.style.color = 'black';
+      });
+
+      chatbox.addEventListener('blur', function() {
+        if (!this.value) {
+          this.placeholder = 'Type a Message...';
+        }
+      })
+
+      chatbox.addEventListener('keypress', function (e) {
+        if (e.keyCode === 13) {
+          this.value = '';
+          alert('Sent message: ' + this.value);
+        }
+      })
+    </script>
   </body>
 </html>

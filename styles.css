@@ -10,11 +10,7 @@ body {
   border-right: 1px solid #D8D8D8;
 }
 
-button:focus {
-  outline: 0;
-}
-
-input:focus {
+button:focus, input:focus {
   outline: 0;
 }
 
@@ -57,11 +53,12 @@ input:focus {
   font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 1.25;
 }
 
 #active-circle {
   position: absolute;
-  top: 1.44rem;
+  top: 1.6rem;
   left: -0.3rem;
   width: 10px;
   height: 10px;
@@ -87,12 +84,13 @@ input:focus {
 }
 
 #logo-container {
-  background-color: #db0a5b;
+  background-color: #DB0A5B;
   width: 3.6rem;
   justify-content: center;
   align-items: center;
   display: flex;
   overflow: visible;
+  border-bottom: 1px solid #DB0A5B;
 }
 
 #logo {
@@ -128,14 +126,13 @@ input:focus {
   background-color: #363636;
   border-top: 1px solid;
   max-height: 100%;
-
   width: 3.6rem;
   display: flex;
   flex-direction: column;
 }
 
 #side-bar:first-child {
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
 }
 
 #item-list {
@@ -171,6 +168,7 @@ input:focus {
   font-size: 13px;
   margin-left: 2rem;
   margin-right: 2rem;
+  line-height: 1.25;
 }
 
 #main-conclusion {
@@ -180,8 +178,8 @@ input:focus {
 #main-intro:first-letter {
   font-size: 40px;
   float: left;
-  margin-right: 0.5rem;
-  line-height: 30px;
+  margin-right: 0.3rem;
+  line-height: 32px;
 }
 
 #main-image {
